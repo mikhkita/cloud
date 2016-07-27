@@ -288,18 +288,24 @@ input:-moz-placeholder {
 				font-size: 44px;
 				text-align: right;
 				margin-right: 5px;
+
+				max-height: 10000px;
 			}
 			.b-head_cont-title h3 {
 				margin-top: 25px;
 				font-size: 27.6px;
 				font-family: 'RobotoCondensedLight';
 				text-align: left;
+
+				max-height: 10000px;
 			}
 			.b-head_cont-title h2 {
 				font-size: 32.2px;
 				font-family: 'RobotoCondensedLight';
 				text-align: left;
 				color: #58d0f2;
+
+				max-height: 10000px;
 			}
 	.b-head_cont-list {
 		margin-top: 45px;
@@ -321,6 +327,7 @@ input:-moz-placeholder {
 				font-family: 'RobotoLight';
 				font-size: 15px;
 				text-align: left;
+				max-height: 10000px;
 			}
 				.b-head_cont-list li:nth-child(1) p {padding-top: 3px;}
 				.b-head_cont-list li:nth-child(2) p {padding-top: 0px;}
@@ -348,6 +355,8 @@ input:-moz-placeholder {
 				font-size: 19px;
 				text-align: center;
 				text-transform: uppercase;
+
+				max-height: 10000px;
 			}
 				.b-head_form-title h2 span {
 					color: #15b2d9;
@@ -369,6 +378,7 @@ input:-moz-placeholder {
 			border-radius: 5px;
 			width: 183px;
 			margin-top: 12px;
+				max-height: 10000px;
 		}
 		#name {
 	        background-image: url(../img/modal_name.png);
@@ -436,12 +446,14 @@ input:-moz-placeholder {
 				font-size: 38px;
 				color: #1395fa;
 				margin-top: -7px;
+				max-height: 10000px;
 			}
 			.b_how_works__bottom__cont p {
 				font-family: 'RobotoLight';
 				font-size: 16px;
 				color: #000;
 				margin-bottom: -4px;
+				max-height: 10000px;
 			}
 		.b-how_works-bottom img {
 			margin-top: 35px;
@@ -471,6 +483,7 @@ input:-moz-placeholder {
 		font-size: 37px;
 		text-transform: uppercase;
 		padding-top: 55px;
+				max-height: 10000px;
 	}
 	.b-what_get ul {}
 	.b-what_get li {
@@ -484,6 +497,7 @@ input:-moz-placeholder {
 		font-family: 'RobotoCondensedBold';
 		font-size: 16px;
 		text-transform: uppercase;
+				max-height: 10000px;
 	}
 	.b-what_get ul li.left {
 		text-align: right;
@@ -497,6 +511,7 @@ input:-moz-placeholder {
 		margin-top: 25px;
 		text-align: justify;
 		width: 300px;
+				max-height: 10000px;
 	}
 	.b-what_get .first_list {
 		padding-left: 65px;
@@ -577,6 +592,7 @@ input:-moz-placeholder {
 	font-size: 16px;
 	margin-top: 30px;
 	color: #000;
+				max-height: 10000px;
 }
 .b-safety .title_icon {
 	background-image: url(../img/title_safety.png);
@@ -634,6 +650,7 @@ input:-moz-placeholder {
 		font-size: 16px;
 		color: #000;
 		margin-top: -4px;
+				max-height: 10000px;
 	}
 	.b-safety .that_get-cont p {
 		font-family: 'RobotoLight';
@@ -641,6 +658,7 @@ input:-moz-placeholder {
 		margin-top: 30px;
 		color: #000;
 		margin-bottom: -2px;
+				max-height: 10000px;
 	}
 .that_get_after_img-1 {
     position: absolute;
@@ -831,6 +849,7 @@ input:-moz-placeholder {
 			.hww_block .hww_list .list_p {
 				font-family: 'RobotoLight';
 				font-size: 16px;
+				max-height: 10000px;
 			}
 			.hww_block .hww_list .hww_number-1 {
 				position: absolute;
@@ -843,6 +862,7 @@ input:-moz-placeholder {
 				line-height: 33px;
 				text-align: center;
 				z-index: 10;
+				max-height: 10000px;
 			}
 			.hww_line_vertical {
 				width: 2px;
@@ -896,16 +916,16 @@ input:-moz-placeholder {
 		left: 140px;
 	}
 	.b-calc .calc_tabs li:nth-child(2) {
-		top: 35px;
-		left: 255px;
+		top: 30px;
+		left: 250px;
 	}
 	.b-calc .calc_tabs li:nth-child(3) {
 		top: 0px;
 		left: 460px;
 	}
 	.b-calc .calc_tabs li:nth-child(4) {
-		top: 35px;
-		right: 255px;
+		top: 30px;
+		right: 250px;
 	}
 	.b-calc .calc_tabs li:nth-child(5) {
 		top: 160px;
@@ -915,11 +935,51 @@ input:-moz-placeholder {
 			padding-top: 20px;
 		}
 
+
+	.b-calc .calc_tabs li:nth-child(1) .circl_tab-line_after-1 {
+		position: absolute;
+		bottom: 12px;
+		right: -79px;
+		z-index: 5;
+		display: none;
+	}
+	.b-calc .calc_tabs li:nth-child(2) .circl_tab-line_after-2 {
+		position: absolute;
+		bottom: -49px;
+		right: -37px;
+		z-index: 5;
+		display: none;
+	}
+	.b-calc .calc_tabs li:nth-child(3) .circl_tab-line_after-3 {
+		position: absolute;
+		bottom: -36px;
+		right: 49px;
+		z-index: 5;
+		display: none;
+	}
+	.b-calc .calc_tabs li:nth-child(4) .circl_tab-line_after-4 {
+		position: absolute;
+		bottom: -51px;
+		right: 89px;
+		z-index: 5;
+		display: none;
+	}
+	.b-calc .calc_tabs li:nth-child(5) .circl_tab-line_after-5 {
+		position: absolute;
+		bottom: 0px;
+		right: 107px;
+		z-index: 5;
+		display: none;
+	}
+
 	.b-calc .calc_tabs li:hover .tab-circl-cont{
 		background-color: #1a4b7d;
 	}
 	.b-calc .calc_tabs .active .tab-circl-cont {
 		background-color: #1a4b7d;
+	}
+	.b-calc .calc_tabs .active img {
+		display: block !important;
 	}
 	.b-calc .calc_tabs li a {
 		color: #fff;
@@ -929,15 +989,18 @@ input:-moz-placeholder {
 			height: 102px;
 			border-radius: 50%;
 			background-color: #1395fa;
+			position: relative;
 		}
 			.b-calc .tab-circl-cont p {
 				font-family: 'RobotoLight';
 				font-size: 16px;
 				padding-top: 8px;
+				max-height: 10000px;
 			}
 				.b-calc .tab-circl-cont p span {
 					font-family: 'RobotoBold';
 					font-size: 24px;
+				max-height: 10000px;
 				}
 	.b-calc .calc_tab_container {
 		margin: 0 auto;
@@ -946,6 +1009,7 @@ input:-moz-placeholder {
 		height: 440px;
 		border-radius: 50%;
 		background-color: #1a4b7d;
+		z-index: 10;
 	}
 		.b-calc .calc_tab_content {
 			width: 305px;
@@ -956,6 +1020,7 @@ input:-moz-placeholder {
 				font-size: 55px;
 				font-family: 'BebasNeue';
 				color: #14bbe1;
+				max-height: 10000px;
 			}
 				.b-calc .calc_tab_content h2 span {
 					font-size: 33px;
@@ -966,6 +1031,7 @@ input:-moz-placeholder {
 				margin-top: 30px;
 				padding-top: 35px;
 				border-top: 1px solid #14bbe1;
+				max-height: 10000px;
 			}
 	.b-calc .calc_but { 
 		padding: 10px;
@@ -1021,6 +1087,7 @@ input:-moz-placeholder {
 	font-size: 24px;
 	color: #285686;
 	text-transform: uppercase;
+				max-height: 10000px;
 }
 .b-menu-list ul {margin-top: 30px;}
 .b-menu-list li {
@@ -1029,6 +1096,7 @@ input:-moz-placeholder {
 	padding-top: 15px;
 	padding-bottom: 20px;
 	position: relative;
+				max-height: 10000px;
 }
 .li_bottom {
 	border-bottom: 1px solid #e5eff8;
