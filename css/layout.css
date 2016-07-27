@@ -1163,11 +1163,12 @@ input:-moz-placeholder {
 }
 
 .fancybox-close {
-	right: -9px !important;
+	right: 0px !important;
 	top: 160px !important;
 }
 .fancybox-inner {
 	padding-top: 80px;
+	width: 395px !important;
 }
 .fancybox-wrap {
 	top: 10% !important;
