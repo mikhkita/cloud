@@ -280,7 +280,7 @@ input:-moz-placeholder {
 		margin-top: 100px;
 	}
 		.b-head_cont-title {
-			width: 375px;
+			width: 380px;
 			text-transform: uppercase;
 		}
 			.b-head_cont-title h1 {
@@ -1092,6 +1092,17 @@ input:-moz-placeholder {
 .fancybox-overlay {
 	background: none;
 	background: rgba(106,220,240,0.75);
+}
+
+.fancybox-close {
+	right: -9px !important;
+	top: 160px !important;
+}
+.fancybox-inner {
+	padding-top: 80px;
+}
+.fancybox-wrap {
+	top: 10% !important;
 }
 
 

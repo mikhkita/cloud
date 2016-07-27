@@ -95,14 +95,19 @@ $(document).ready(function(){
     $('.calc_tab_content:first').show();
     $('.calc_tabs li:first').addClass('active');
 
-    $('.calc_tabs li').click(function(event) {
-        
-            $('.calc_tabs li').removeClass('active');
-            $(this).addClass('active');
-            $('.calc_tab_content').hide();
+    $('.calc_tabs li').hover(
+    function(event) {
+          
+        $('.calc_tabs li').removeClass('active');
+        $(this).addClass('active');
+        $('.calc_tab_content').hide();
 
         var select_tab = $(this).find('a').attr("data-tab");
         $(select_tab).fadeIn();
+    },
+    function() {
+        $('.calc_tabs li').removeClass('active');
+        $(this).addClass('active');
     });
 
      
