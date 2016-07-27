@@ -114,3 +114,134 @@
 	.procAnim-3-show .b-proc-high{
 		height: 210px;
 	}
+
+.myanim_1 {
+-webkit-transform: translate(125px,250px);
+   -moz-transform: translate(125px,250px);
+	-ms-transform: translate(125px,250px);
+	 -o-transform: translate(125px,250px);
+		transform: translate(125px,250px);
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+	    -ms-transition: all 1000ms ease-out;
+	   	 -o-transition: all 1000ms ease-out;
+			transition: all 1000ms ease-out;
+	
+}
+	.myanim_1-show {
+-webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	 -o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+
+	}
+
+.myanim_2 {
+-webkit-transform: translate(-125px,250px);
+   -moz-transform: translate(-125px,250px);
+	-ms-transform: translate(-125px,250px);
+	 -o-transform: translate(-125px,250px);
+		transform: translate(-125px,250px);
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+	    -ms-transition: all 1000ms ease-out;
+	   	 -o-transition: all 1000ms ease-out;
+			transition: all 1000ms ease-out;
+	
+}
+	.myanim_2-show {
+-webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	 -o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+
+	}
+
+.myanim_3 {
+-webkit-transform: translate(170px,0px);
+   -moz-transform: translate(170px,0px);
+	-ms-transform: translate(170px,0px);
+	 -o-transform: translate(170px,0px);
+		transform: translate(170px,0px);
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+	    -ms-transition: all 1000ms ease-out;
+	   	 -o-transition: all 1000ms ease-out;
+			transition: all 1000ms ease-out;
+	
+}
+	.myanim_3-show {
+-webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	 -o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+
+	}
+	.myanim_4 {
+-webkit-transform: translate(-170px,0px);
+   -moz-transform: translate(-170px,0px);
+	-ms-transform: translate(-170px,0px);
+	 -o-transform: translate(-170px,0px);
+		transform: translate(-170px,0px);
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+	    -ms-transition: all 1000ms ease-out;
+	   	 -o-transition: all 1000ms ease-out;
+			transition: all 1000ms ease-out;
+	
+}
+	.myanim_4-show {
+-webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	 -o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+
+	}
+
+.myanim_5 {
+-webkit-transform: translate(125px,-250px);
+   -moz-transform: translate(125px,-250px);
+	-ms-transform: translate(125px,-250px);
+	 -o-transform: translate(125px,-250px);
+		transform: translate(125px,-250px);
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+	    -ms-transition: all 1000ms ease-out;
+	   	 -o-transition: all 1000ms ease-out;
+			transition: all 1000ms ease-out;
+	
+}
+	.myanim_5-show {
+-webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	 -o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+
+	}
+
+.myanim_6 {
+-webkit-transform: translate(-125px,-250px);
+   -moz-transform: translate(-125px,-250px);
+	-ms-transform: translate(-125px,-250px);
+	 -o-transform: translate(-125px,-250px);
+		transform: translate(-125px,-250px);
+	-webkit-transition: all 1000ms ease-out;
+	   -moz-transition: all 1000ms ease-out;
+	    -ms-transition: all 1000ms ease-out;
+	   	 -o-transition: all 1000ms ease-out;
+			transition: all 1000ms ease-out;
+	
+}
+	.myanim_6-show {
+-webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	 -o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+
+	}
