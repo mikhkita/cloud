@@ -82,11 +82,11 @@ $(document).ready(function(){
         $('#menu_but').hide();
      });
      $('.b-menu-list li a').click(function() {
-        $('#menu').hide();
+        $('#menu').fadeOut();
         $('#menu_but').fadeIn();
      });
      $('#close_menu').click(function(){
-        $('#menu').hide();
+        $('#menu').fadeOut();
         $('#menu_but').fadeIn();
      });
 
