@@ -1178,6 +1178,18 @@ input:-moz-placeholder {
 	top: 10% !important;
 }
 
+#b-popup-2 .b-head_form-title {
+	left: 135px;
+	
+}
+	#b-popup-2 .b-head_form-title h2 {
+		font-size: 22px;
+	}
+#b-popup-2 .h4 {
+	font-family: 'RobotoLight';
+	font-size: 18px;
+
+}
 
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
