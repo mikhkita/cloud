@@ -143,9 +143,11 @@ input.error,textarea.error{
 }
 input::-webkit-input-placeholder {
 	color: #b3b3b3;
+	font-family: 'RobotoLightItalic';
 }
 input:-moz-placeholder {
 	color: #b3b3b3;
+	font-family: 'RobotoLightItalic';
 }
 .b-icon{
 	position: relative;
@@ -368,7 +370,7 @@ input:-moz-placeholder {
 			border-bottom-right-radius: 50px;
 		}
 		.b-head_form-cont input[type=text] {
-			font-family: 'RobotoLightItalic';
+			font-family: 'RobotoLight';
 			color: #555 !important;
 			font-size: 18px;
 			border: 1px solid #bed2dd;
