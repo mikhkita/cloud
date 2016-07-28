@@ -142,10 +142,10 @@ input.error,textarea.error{
 	margin-left: -500px;
 }
 input::-webkit-input-placeholder {
-	color: #434343;
+	color: #b3b3b3;
 }
 input:-moz-placeholder {
-	color: #434343;
+	color: #b3b3b3;
 }
 .b-icon{
 	position: relative;
@@ -317,7 +317,6 @@ input:-moz-placeholder {
 		}
 			.b-head_cont-list li:hover {
 				transform: scale(1.1);
-				cursor: pointer;
 			}
 			.b-head_cont-list li img {
 				width: 47px;
@@ -370,7 +369,7 @@ input:-moz-placeholder {
 		}
 		.b-head_form-cont input[type=text] {
 			font-family: 'RobotoLightItalic';
-			color: #b3b3b3 !important;
+			color: #555 !important;
 			font-size: 18px;
 			border: 1px solid #bed2dd;
 			padding: 7px 0px;

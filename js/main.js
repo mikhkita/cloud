@@ -79,9 +79,11 @@ $(document).ready(function(){
     $("#menu").hide();
      $('#menu_but').click(function(){
         $('#menu').fadeIn();
+        $('#menu_but').hide();
      });
      $('#close_menu').click(function(){
         $('#menu').hide();
+        $('#menu_but').fadeIn();
      });
 
     $('.b-how_works-video-open div.video').click(function() {
