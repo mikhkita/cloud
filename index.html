@@ -557,10 +557,21 @@
 			</div>
 		</div>
 		<div id="b-popup-error">
-			<div class="b-thanks b-popup">
-				<h3>Ошибка отправки!</h3>
-				<h4>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</h4>
-				<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+			<div class="b-popup" >
+				<div class="b-head_form">
+					<img src="img/popup_cloud.png" class="b-head_form-cloud">
+					<div class="b-head_form-title">
+						<h2>
+							Ошибка отправки!
+						</h2>
+					</div>
+					<div class="b-head_form-cont">
+						<form action="kitsend.php" method="POST" data-block="#b-popup-2">
+							<h4>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</h4>
+							<input type="submit" class="b-blue-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
