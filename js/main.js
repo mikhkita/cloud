@@ -81,6 +81,10 @@ $(document).ready(function(){
         $('#menu').fadeIn();
         $('#menu_but').hide();
      });
+     $('.b-menu-list li a').click(function() {
+        $('#menu').hide();
+        $('#menu_but').fadeIn();
+     });
      $('#close_menu').click(function(){
         $('#menu').hide();
         $('#menu_but').fadeIn();
