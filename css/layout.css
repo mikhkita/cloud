@@ -547,7 +547,8 @@ input:-moz-placeholder {
 	}
 		.what_get_img_5_after {
 			top: -146px;
-			right: -165px;
+			right: -158px;
+			transform: rotate(-5deg);
 		}
 	.what_get-img_2 {
 		left: -85px;
@@ -555,7 +556,8 @@ input:-moz-placeholder {
 	}
 		.what_get_img_2_after {
 			top: 42px;
-			left: -154px;
+			left: -143px;
+			transform: rotate(-3deg);
 		}
 	.what_get-img_4 {
 		left: -80px;
@@ -571,7 +573,8 @@ input:-moz-placeholder {
 	}
 		.what_get_img_6_after {
 			top: -143px;
-			left: -152px;
+			left: -145px;
+			transform: rotate(5deg);
 		}
 
 	.what_get-circle {
