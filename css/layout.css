@@ -590,7 +590,9 @@ input:-moz-placeholder {
 	}
 
 
-
+.b-safety{
+	overflow: hidden;
+}
 .b-safety .b_title p {
 	font-family: 'RobotoLight';
 	font-size: 16px;
