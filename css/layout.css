@@ -381,7 +381,7 @@ input:-moz-placeholder {
 				}
 		.b-head_form-cont {
 			margin-top: 120px;
-			padding: 30px 26px 25px;
+			padding: 30px 24px 25px;
 			border-radius: 50px;
 			border: 1px solid #fff;
 		}
@@ -393,24 +393,24 @@ input:-moz-placeholder {
 			padding: 5px 0px;
 			padding-left: 80px;
 			border-radius: 5px;
-			width: 209px;
+			width: 206px;
 			margin-top: 6px;
 				max-height: 10000px;
 		}
 		#name {
 	        background-image: url(../img/modal_name.png);
 	        background-repeat: no-repeat;
-	        background-position: 13px 3px;
+	        background-position: 13px 5px;
 	    }
 	    #tel {
 	        background-image: url(../img/modal_phone.png);
 	        background-repeat: no-repeat;
-	        background-position: 15px 3px;
+	        background-position: 15px 5px;
 	    }
 	    #email {
 	        background-image: url(../img/modal_email.png);
 	        background-repeat: no-repeat;
-	        background-position: 13px 7px;
+	        background-position: 13px 9px;
 	    }
 		.b-head_form-cont .b-blue-butt {
 			width: 291px;
@@ -1213,8 +1213,8 @@ input:-moz-placeholder {
 			padding: 11px;
 		}
 			.b-popup .b-head_form-cont-pop .b-blue-butt:hover {
-				background-color: #fff;
-				color: #1a4b7d;
+				background-color: #1395fa;
+				color: #fff;
 			}
 			.b-popup .b-head_form-cont-pop .b-blue-butt:active {
 				margin-top: 32px;
@@ -1243,7 +1243,8 @@ input:-moz-placeholder {
 	color: #fff;
 }
 .b-popup .b-blue-butt:hover {
-	background-color: #3c86d1;
+	background-color: #1395fa;
+	color: #fff;
 }
 .b-popup .b-blue-butt:active {
 	margin-top: 32px;
@@ -1295,7 +1296,7 @@ input:-moz-placeholder {
 .arrow_up {
 	position: fixed;
 	bottom: 50px;
-	right: 140px;
+	right: 50px;
 	z-index: 100;
 	opacity: 0.5;
 	cursor: pointer;
@@ -1464,7 +1465,7 @@ input:-moz-placeholder {
 	left: -40px;
 	top: 2px;
 }
-.b-footer p {color: #000;}
+.b-footer p,.b-footer p a {color: #000;}
 .b-footer span {
 	color: #275584;
 	font-weight: bold;
