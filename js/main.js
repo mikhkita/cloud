@@ -116,7 +116,18 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
 
-     
+    $('#arrow_up_but').hide();
+    
+    $('#arrow_up_but').click( function(){
+        window.scroll(0 ,0);
+    });
 
+    $(window).scroll(function(){
+        if ( $(document).scrollTop() > 300 ) {
+            $('#arrow_up_but').fadeIn();
+        } else {
+            $('#arrow_up_but').hide();
+        }
+    });
 
 });
