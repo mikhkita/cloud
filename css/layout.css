@@ -327,7 +327,22 @@ input:-moz-placeholder {
 			transition: all ease-out 0.3s;
 			cursor: default;
 			width: 16.5%;
-			margin-right: 40px;
+			margin-right: 6px;
+		}
+		.b-head_cont-list li:nth-child(1) {
+			width: 18%;
+		}
+		.b-head_cont-list li:nth-child(2) {
+			width: 19%;
+		}
+		.b-head_cont-list li:nth-child(3) {
+			width: 20%;
+		}
+		.b-head_cont-list li:nth-child(4) {
+			width: 22%;
+		}
+		.b-head_cont-list li:nth-child(5) {
+			width: 18%;
 		}
 			.b-head_cont-list li:last-child {
 				margin-right: 0px;
@@ -357,7 +372,7 @@ input:-moz-placeholder {
 				text-align: center;
 				text-transform: uppercase;
 				max-height: 10000px;
-				padding-bottom: 17px;
+				padding-bottom: 15px;
 				border-bottom: 2px dotted #fff;
 				margin-bottom: 14px;
 			}
@@ -366,7 +381,7 @@ input:-moz-placeholder {
 				}
 		.b-head_form-cont {
 			margin-top: 120px;
-			padding: 30px 30px 25px;
+			padding: 30px 26px 25px;
 			border-radius: 50px;
 			border: 1px solid #fff;
 		}

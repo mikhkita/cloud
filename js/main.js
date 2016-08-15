@@ -117,17 +117,30 @@ $(document).ready(function(){
     });
 
     $('#arrow_up_but').hide();
-    
-    $('#arrow_up_but').click( function(){
-        window.scroll(0 ,0);
+    $(window).scroll(function() {
+        r = $(window).scrollTop();
+        if (r == 0)
+            //$('#arrow_up_but').hide();
+        if(r > 300)
+            $('#arrow_up_but').fadeIn();
     });
+    
+    /*$('#arrow_up_but').click( function(){
+        window.scroll(0 ,0);
+    });*/
 
-    $(window).scroll(function(){
+    $('#arrow_up_but').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+        $('#arrow_up_but').hide();
+        return false;
+      })
+
+    /*$(window).scroll(function(){
         if ( $(document).scrollTop() > 300 ) {
             $('#arrow_up_but').fadeIn();
         } else {
             $('#arrow_up_but').hide();
         }
-    });
+    });*/
 
 });
