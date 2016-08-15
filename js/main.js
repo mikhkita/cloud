@@ -115,13 +115,14 @@ $(document).ready(function(){
         $('.calc_tabs li').removeClass('active');
         $(this).addClass('active');
     });
-
+    var x=0;
     $('#arrow_up_but').hide();
     $(window).scroll(function() {
         r = $(window).scrollTop();
         if (r == 0)
+            x=0;
             //$('#arrow_up_but').hide();
-        if(r > 300)
+        if(r > 200 && x==0)
             $('#arrow_up_but').fadeIn();
     });
     
@@ -132,6 +133,7 @@ $(document).ready(function(){
     $('#arrow_up_but').click(function() {
     $('html, body').animate({scrollTop: 0},500);
         $('#arrow_up_but').hide();
+        x=1;
         return false;
       })
 
