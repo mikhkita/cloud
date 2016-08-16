@@ -115,6 +115,10 @@ $(document).ready(function(){
         $('.calc_tabs li').removeClass('active');
         $(this).addClass('active');
     });
+
+    var x_r = $(window).scrollTop();
+    if (x_r < 200)
+        $('#arrow_up_but').hide();
     var x=0;
     $('#arrow_up_but').hide();
     $(window).scroll(function() {
